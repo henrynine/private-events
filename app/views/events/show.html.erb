@@ -1,0 +1,10 @@
+<h1><%= @event.name %></h1>
+Location: <%= @event.location %>
+<br />
+Time: <%= @event.date %>
+<br />
+
+Attendees:
+<ul>
+  <%= render @users %>
+</ul>

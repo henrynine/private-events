@@ -1,0 +1,6 @@
+<%= link_to "All events", events_path %> |
+<% unless current_user.nil? %>
+  <%= link_to "Your profile", current_user %>
+<% else %>
+  <%= link_to "Log in", login_path %>
+<% end %>

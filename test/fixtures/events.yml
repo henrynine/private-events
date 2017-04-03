@@ -3,11 +3,9 @@
 one:
   name: MyString
   location: MyString
-  date: 2017-03-31 08:27:50
-  host_id: 1
+  time: 2017-04-01 16:08:21
 
 two:
   name: MyString
   location: MyString
-  date: 2017-03-31 08:27:50
-  host_id: 1
+  time: 2017-04-01 16:08:21

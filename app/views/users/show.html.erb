@@ -1,0 +1,19 @@
+<h1>User profile page</h1>
+
+<h2>Name:</h2>
+<p><%= @user.name %></p>
+
+<h2>Owned events:</h2>
+<ul>
+  <%= render @owned_events %>
+</ul>
+
+<h2>Upcoming events:</h2>
+<ul>
+  <%= render @upcoming_events %>
+</ul>
+
+<h2>Previous events:</h2>
+<ul>
+  <%= render @previous_events %>
+</ul>
